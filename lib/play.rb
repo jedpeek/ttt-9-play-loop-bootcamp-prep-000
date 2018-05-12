@@ -38,7 +38,7 @@ end
 def play(board)
   i = 0
   while i < 9
-    move(board, index, current_player = "X")
+    turn(board)
     i += 1
   end
 end
